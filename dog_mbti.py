@@ -24,4 +24,9 @@ def dog_mbti_quiz():
         choice = st.radio("選んでください:", (option_a, option_b), key=f"q{i}")
         
         # 回答に応じたカウント
-        if i < 5:
+        if i < 5: 
+            # ここにインデントを入れて、処理を書く
+    if choice == option_a:
+        E += 1
+    else:
+        I += 1
